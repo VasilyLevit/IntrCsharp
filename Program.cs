@@ -6,7 +6,7 @@ string PrintText(string[] array)
     
     for (int i = 0; i < array.Length; i++)
     {
-        output += ($"{array[i]} ");
+        output += ($"{array[i]}  ");
     }
     return output;
 }
@@ -27,4 +27,4 @@ for (int i = 0, j = 0; i < sizeInArray; i++)
     }
 }
 Console.Write(PrintText(outArray));
-// File.WriteAllText("output.txt", PrintText(outArray));
+File.WriteAllText("output.txt", PrintText(outArray));
