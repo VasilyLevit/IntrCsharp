@@ -29,4 +29,4 @@ for (int i = 0, j = 0; i < sizeInArray; i++)
     }
 }
 Console.Write(PrintText(outArray));
-File.WriteAllText("output.txt", PrintText(outArray));
+File.WriteAllText("output.txt", PrintText(outArray)); // Вывод массива в файл
