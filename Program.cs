@@ -22,7 +22,6 @@ for (int i = 0, j = 0; i < sizeInArray; i++)
     if (inArray[i].Length <= n)
     {
         outArray[j] = inArray[i];
-        // Console.Write($"{outArray[j]} "); // Тест
         j++;
     }
 }
